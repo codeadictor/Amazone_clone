@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+
+.navbar{
+    background-color:#0f1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+
+}
+.logo{
+    background-image: url("logo2.webp");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+    
+.add-first{
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+color: white;
+font-size: 1rem;
+margin-left: 3px;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px; 
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    font-weight: 500;
+    text-align:center;
+    width:50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.items{
+    text-align:left;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(111, 212, 253, 0.897);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111 ;
+}
+/** box 4 **/
+
+span{
+font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-third{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/** box 5 **/
+
+.nav-cart i{
+font-size:30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+/**pannel**/
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left:20px;
+    font-weight: 500;
+
+}
+.pannel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+
+}
+/** hero image**/
+.hero-section{
+    background-image: url("hero2.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.hero-message{
+    background-color: white;
+    color:black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-message a{
+    color:#007185;
+}
+/** shop section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #DEB086;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color:#C7EFCF ;
+    padding: 20px 0px 15px ;
+    margin-top: 1rem;
+}
+.box-image{
+   height: 300px;
+   background-size: cover; 
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+
+   
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
+}
+.box-content a{
+    text-decoration: none;
+    color:#007185;
+
+}
+/** footer pannels **/
+footer{
+    margin-top:1rem;
+}
+.foot-pannel1{
+background-color: #37475a;
+color:white;
+height:3.5rem;
+font-size: 0.85rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.foot-pannel2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-pannel2 p{
+    font-weight: 700;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px ;
+    color: #DDDDDD;
+
+}
+/** foot pannel 3 **/
+.foot-pannel3{
+    background-color:#222f3d;
+    color: white;
+    border-top:0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.logo{
+    background-image: url("logo2.webp");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.foot-pannel4{
+    background-color:#0f1111;
+    color: white;
+    height: 100px;
+    text-align: center;
+    
+}
+.pages {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.pages a{
+    margin-right:30px;
+    text-decoration: none;
+    color:#DDDDDD;
+}
+.copyright{
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top:10px;
+}
